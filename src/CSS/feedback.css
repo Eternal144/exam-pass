@@ -1,0 +1,45 @@
+.feedback-container{
+    padding: 32px 10px 0 10px;
+    height: 160px;
+}
+.feedback-words-container{
+    float: left;
+    padding: 0 20px;
+}
+.card.submit.feedback{
+    padding: 10px 10px 0 0;
+}
+.feedback-code{
+    float: right;
+    height: 130px;
+}
+.feed-clear{
+    clear: both;
+}
+p.showTitle:first-child{
+    margin-top: 0;
+}
+p.showTitle,p>.showTitle,p{
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.feedback-number{
+    color: #00a1e9;
+    font-size: 18px;
+}
+@media (max-width: 650px) {
+    .feedback-code{
+        height: 110px;
+    }
+    .feedback-words-container{
+        padding: 0;
+    }
+    p.showTitle,p>.showTitle,p{
+        margin: 5px 0;
+    }
+    .feedback-container{
+        padding-top: 30px;
+        height: 140px;
+    }
+}

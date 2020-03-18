@@ -1,0 +1,82 @@
+.card.personal{
+    margin: 10px 15% ;
+}
+.personal-container{
+    padding: 15px 15px 5px;
+    display:flex;
+    align-items: center;
+}
+.personal-avter{
+    cursor: pointer;
+    float: left;
+    height: 60px;
+    display: inline;
+}
+.personal-info{
+    cursor: pointer;
+    float: left;
+    margin: 0 10px;
+}
+.personal-info>h4{
+    font-weight: 400;
+    color:  #7c7c7c;
+    font-size: 14px;
+}
+.personal-info>h3{
+    font-size: 18px;
+    margin: 0 0 5px;
+    color: #555555;
+    font-weight: 500;
+}
+.info-container{
+    padding: 5px 15px 15px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.my-collection{
+    display: inline-block;
+    height: 100%;
+    width:33.3%;
+    float: left;
+    cursor: pointer;
+}
+.my-collection:hover{
+    background-color: rgba(250,250,250,.9);
+}
+.my-collection:nth-child(1),.my-collection:nth-child(2){
+    border-right:2px solid rgba(0,0,0,.1) ;
+}
+.number{
+    font-size: 16px;
+}
+.number,.myself{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    color: gray;
+}
+.grade{
+    font-size: 14px;
+    text-align: left;
+}
+.personal-designation{
+    height: 25px;
+    margin-top: 32px;
+}
+
+@media (max-width: 650px)  {
+    .personal-designation{
+        display: none;
+    }
+    .number{
+        font-size: 18px;
+    }
+    .card.personal{
+        margin:10px ;
+    }
+}
+/* @media (max-width: 650px) {
+    
+} */

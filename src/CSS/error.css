@@ -1,0 +1,30 @@
+/*
+ * Dandelion Admin v1.0 - Obfuscated Main Stylesheet
+ * This file has been obfuscated using this tool: http://refresh-sf.com/yui/
+ * Buyers will get a full, commented CSS source code in their downloadable package.
+ *
+ * This file is part of Dandelion Admin, an Admin template build for sale at ThemeForest.
+ *
+ */
+    html,body{height:100%}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}b,strong{font-weight:bold}img{color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}li{display:list-item}table{border-collapse:collapse;border-spacing:0}th,td,caption{font-weight:normal;vertical-align:top;text-align:left}q{quotes:none}q:before,q:after{content:'';content:none}sub,sup,small{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}svg{overflow:hidden}
+ body{background-image:url("./blueprint.png")}div#da-header #da-header-top{background-image:url("./carbon.png")}
+ @-webkit-keyframes error-swing{0%{-webkit-transform:rotate(1deg)}100%{-webkit-transform:rotate(-2deg)}}@-moz-keyframes error-swing{0%{-moz-transform:rotate(1deg)}100%{-moz-transform:rotate(-2deg)}}@keyframes error-swing{0%{transform:rotate(1deg)}100%{transform:rotate(-2deg)}}div#da-error-wrapper #da-error-code{
+    width:285px;height:170px;
+    padding:127px 16px 0 16px;
+    position:relative; 
+    /* margin: 40px auto; */
+    margin: auto;
+    margin-bottom:20px;z-index:5;line-height:1;font-size:32px;text-align:center;background:url("./error-hanger.png") no-repeat center center;-webkit-transform-origin:center top;-moz-transform-origin:center top;transform-origin:center top;-webkit-animation:error-swing infinite 2s ease-in-out alternate;-moz-animation:error-swing infinite 2s ease-in-out alternate;animation:error-swing infinite 2s ease-in-out alternate}div#da-error-wrapper #da-error-code span{font-size:96px;display:block}div#da-error-wrapper #da-error-pin{
+        width:38px;height:38px;display:block;
+        margin:40px auto;
+        margin-bottom:-27px;z-index:10;position:relative;background:url("./error-pin.png") no-repeat center center}
+.da-error-heading{
+    text-align: center;
+    font-size: 25px;
+}
+#toPage{
+    text-align: center;
+    color: burlywood;
+    font-family: unset;
+    margin-top: 30px; 
+}

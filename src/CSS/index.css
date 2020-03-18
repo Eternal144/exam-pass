@@ -1,0 +1,88 @@
+*{
+    font-family: "sans-serif","Avenir", "Segoe UI", "Hiragino Sans GB", "Hiragino Sans GB W3", "PingFang SC", "Microsoft Yahei", "SimHei", "SimKai";
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(242,245,250);
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+.dimmer{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 999;
+}
+.app{
+    width:100%;
+    min-height: 800px;
+    position: relative;
+}
+.card{
+    background-color: white;
+    border-bottom:1px solid rgba(0,0,0,.15);
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin:0 15%;
+}
+.showTitle{
+    font-size: 18px;
+    color: #555;
+    letter-spacing: 0.05em;
+}
+.exam-button{
+    height: 28px;
+    border-radius: 18px;
+    border: 1px solid rgb(238,238,238);
+    background-color: rgb(238,238,238);
+    color:  #7c7c7c;
+    cursor: pointer;
+    box-sizing: content-box;
+    font-size: 15px;
+}
+.exam-button.login{
+    
+}
+.exam-button:hover{
+    background-color: #d8d8d8;
+}
+.loading{
+    min-height: 600px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.min-height{
+    min-height: 500px;
+}
+.login{
+    font-size: 16px;
+}
+.login:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    .mainPage-container{
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+    .card{
+        margin: 0 10px;
+    }
+    .showTitle{
+        font-size: 18px;
+    }
+    .exam-button{
+        height: 30px;
+    }
+
+}

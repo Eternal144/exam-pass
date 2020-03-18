@@ -1,0 +1,166 @@
+.card.title{
+    margin: 10px 15%;
+    box-sizing: border-box;
+}
+.block{
+    width: 55px;
+    height: 7px;
+    background-color: rgb(0,161,233);
+    margin-left: 12px;
+    border-radius: 1px;
+}
+h2{
+    margin: 10px 40px 15px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.card.pattern{
+    margin-bottom: 40px;
+}
+.alternative-pattern-container{
+    padding: 15px 30px;
+
+}
+.pattern-exercise-card{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    box-sizing: border-box;
+    padding: 10px 35px 10px 20px;
+    line-height: 50px;
+    height: 70px;
+    margin-left: 20px;
+
+}
+.pattern-type{
+    display: inline-block;
+}
+.pattern-exercise-card:hover,.alt-type:hover{
+    cursor: pointer;
+    background-color:rgba(250,250,250,.9);
+
+}
+.pattern-type-container{
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+}
+.pattern-icon{
+    height: 35px;
+    float: left;
+}
+.pattern-words{
+    font-size: 18px;
+    margin-left: 10px;
+    color: #555555;
+}
+.alter-arrow{
+    height: 50px;
+    float: right;
+}
+.pattern-type{
+    font-size: 18px;
+    margin-right: 20px;
+    color: #555;
+}
+.pattern-test-card{
+    box-sizing: border-box;
+    height: 300px;
+    margin-left: 20px;
+}
+.alter-menu{
+    padding: 30px 20px 10px;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.alt-type{
+    margin-left: 10%;
+    padding: 10px 35px 10px 10px;
+    height: 50px;
+    line-height: 50px;
+}
+.alt-words{
+    display: inline-flex;
+    align-items: center;
+}
+.circle{
+    height: 22px;
+    float: left;
+    margin-right: 10px;
+}
+.alt-type.alt{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.alternative-pattern-container>h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin:15px 15px 25px 20px
+}
+
+@media only screen and (min-height: 1100px) {
+    .card.pattern{
+        height:501px;
+        margin-bottom: 300px;
+    }
+}
+@media (max-width: 650px) {
+     .card.title>h2{
+        margin-left: 25px;
+    }
+    .card.title{
+        margin:10px;
+    }
+    .pattern-exercise-card{
+        height:auto;
+        padding: 5px 20px;
+        margin-left: 0;
+        line-height: 1.6;
+    }
+    .pattern-icon{
+        height: 30px;
+    }
+    .pattern-words{
+        font-size: 18px;
+    }
+    .alternative-pattern-container>h3{
+        /*margin: 0 0 20px;*/
+        margin: 0;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .circle{
+        height: 15px;
+        margin-right: 3px;
+    }
+    .pattern-type{
+        font-size: 16px;
+    }
+    .pattern-test-card{
+        margin-left: auto;
+        height:auto;
+    }
+    .card.pattern{
+        height:auto;
+    }
+    .alter-menu{
+        padding: 10px 20px;
+        height:auto;
+        line-height: 1.6;
+    }
+    .alt-type{
+        margin-left: 60px;
+        height:auto;
+        line-height: 1.6;
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+    }
+    .block{
+        width: 35px;
+        height: 5px;
+    }
+    h2{
+        margin-bottom: 10px;
+    }
+
+}

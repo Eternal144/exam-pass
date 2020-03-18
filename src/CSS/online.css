@@ -1,0 +1,62 @@
+.topInfo{
+    padding: 5px 5px 0 10px;
+    display: flex;
+    align-items: center;
+}
+.online-logo{
+    height: 70px;
+    float: left;
+}
+.online-label{
+    transition: height 1s;
+    overflow: hidden;
+    padding:0 20px;
+
+}
+.label-button.exam-button{
+    margin-top: 5px;
+    float: left;
+    width:auto;
+    font-size: 15px;
+    padding: 0 15px;
+    margin-right: 5px;
+}
+.online-unfold{
+    text-align: center;
+    float: right;
+    margin-right: 50px;
+    width: 40px;
+    margin-top: 10px;
+}
+.online-unfold:hover{
+    cursor: pointer;
+}
+.online-arrow{
+    height: 25px;
+}
+#online-words{
+    margin-bottom: -8px;
+    color:  #555;
+}
+@media (min-width: 650px) {
+    .online-label{
+        height: 75px;
+    }
+}
+
+@media (max-width: 650px) {
+    .topInfo{
+        padding: 5px 5px 0 5px;
+    }
+    .label-button.exam-button{
+        font-size: 0.95em;
+        padding: 5px 15px;
+        height: auto;
+    }
+    .online-label{
+        height: 152px;
+    }
+    .label-button.exam-button{
+        margin-top: 5px;
+    }
+}
